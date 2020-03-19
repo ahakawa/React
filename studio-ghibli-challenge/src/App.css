@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.divHeader {
+  width: 100vw;
+  display: block;
+  max-width: 100%;
+  margin-top: 20px;  
+  margin-bottom: 30px;
+}
+
+.Card-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+}
+
+.filmes{
+  border: 1px solid black;
+  padding: 30px;
+  width: 20%;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+@media(max-width: 1301px){
+  .filmes{
+      width: 100%;
+  }
+
+}
