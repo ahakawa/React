@@ -1,0 +1,17 @@
+.div-container-geral {
+  background-color: lightpink;
+  margin: 0 20% 0 20%;
+  padding-bottom: 2%;
+  border-radius: 28%;
+}
+
+.div-header {
+  text-align: center;
+  position: relative;
+  margin-top: 10%;
+  padding-top: 1%;
+}
+
+.div-container {
+  text-align: center;
+}
